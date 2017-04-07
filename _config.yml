@@ -1,0 +1,24 @@
+# Site settings
+title: ChenHY Blog
+header-img: img/home-bg.jpg
+email: hongyuchen@whu.edu.cn
+description: "听听歌，敲代码，机器学习、人工智能让世界更美好"
+# baseurl: "/startbootstrap-clean-blog-jekyll"
+# url: "http://yourdomain.com"
+
+github_username:  ChenHongYushare
+# facebook_username:  StartBootstrap
+email_username:  hongyuchen@whu.edu.cn
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
